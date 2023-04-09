@@ -67,18 +67,22 @@ cv2.destroyAllWindows()
 ## Output:
 
 ### i) Read and display the image
-
+![output](https://github.com/ragulmani936/Read-and-Write-Image/blob/main/img1.png)
 
 ### ii)Write the image
 
+![output](https://github.com/ragulmani936/Read-and-Write-Image/blob/main/img2.png)
 
 ### iii)Shape of the Image
 
+![output](https://github.com/ragulmani936/Read-and-Write-Image/blob/main/img3.png)
 
 ### iv)Access rows and columns
+![output](https://github.com/ragulmani936/Read-and-Write-Image/blob/main/img4.png)
 
 
 ### v)Cut and paste portion of image
+![output](https://github.com/ragulmani936/Read-and-Write-Image/blob/main/img5.png)
 
 
 ## Result:
