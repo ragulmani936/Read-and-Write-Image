@@ -24,43 +24,44 @@ End the program and close the output image windows.
 i) #To Read,display the image
 ```
 import cv2
-color_image=cv2.imread('rose1.jpeg',1)
-cv2.imshow('rose',color_image)
-cv2.waitKey(0)
+color_image = cv2.imread('rose1.jpeg',1)
+cv2.imshow('ragul',color_image)
+cv2.waitKey(0) 
+cv2.destroyAllWindows
 ```
 ii) #To write the image
 ```
 import cv2
 color_image = cv2.imread('rose1.jpeg',1)
-h = cv2.imwrite('rose.jpg',color_image)
-cv2.imshow('ragul',color_image)
-cv2.waitKey(0) 
+cv2.imwrite('rose1.png',color_image)
+cv2.waitKey(0)
 ```
 iii) #Find the shape of the Image
 ```
 import cv2
-color_image = cv2.imread('rose1.jpeg',1)
-print(color_image.shape)
+img=cv2.imread('rose1.jpeg',-1)
+print(img.shape)
 ```
 iv) #To access rows and columns
 ```
-import random
 import cv2
-color_image = cv2.imread('rose1.jpeg',1)
-for i in range(150):
-    for j in range(color_image.shape[1]):
-        color_image[i][j] = [random.randint(0,255),random.randint(0,255),random.randint(0,255)]
-cv2.imshow('sun2.jpg',color_image)
+img=cv2.imread('rose1.jpeg',-1)
+for i in range(100,150):
+    for j in range(10,255):
+        img[i][j]=[255,100,255] #blue green red
+cv2.imshow('ragul',img);
 cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
 v) #To cut and paste portion of image
 ```
 import cv2
-color_image = cv2.imread('rose1.jepg',1)
-part = color_image[300:400,300:400]
-color_image[50:150,50:150] = part
-cv2.imshow("hari",color_image)
+img1=cv2.imread('rose1.jpeg',-1)
+copied_portion=img1[10:60,10:120]
+img1[110:160,110:220]=copied_portion
+cv2.imshow('ragul',img1)
 cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
 
 ## Output:
