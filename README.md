@@ -67,22 +67,21 @@ cv2.destroyAllWindows()
 ## Output:
 
 ### i) Read and display the image
-![output](https://github.com/ragulmani936/Read-and-Write-Image/blob/main/img1.png)
+![img1](https://user-images.githubusercontent.com/94881918/230758898-9f7ed91b-a7aa-44f8-91b3-046ddf393b0c.png)
 
 ### ii)Write the image
 
-![output](https://github.com/ragulmani936/Read-and-Write-Image/blob/main/img2.png)
+![img2](https://user-images.githubusercontent.com/94881918/230758883-05392da5-73f2-476e-875a-ba112a5ce141.png)
 
 ### iii)Shape of the Image
 
-![output](https://github.com/ragulmani936/Read-and-Write-Image/blob/main/img3.png)
+![img3](https://user-images.githubusercontent.com/94881918/230758909-fbda840f-088c-4126-9390-f0d3bc24ebba.png)
 
 ### iv)Access rows and columns
-![output](https://github.com/ragulmani936/Read-and-Write-Image/blob/main/img4.png)
-
+![img4](https://user-images.githubusercontent.com/94881918/230758920-2d766464-7962-47e4-a5ba-929ee813ed64.png)
 
 ### v)Cut and paste portion of image
-![output](https://github.com/ragulmani936/Read-and-Write-Image/blob/main/img5.png)
+![img5](https://user-images.githubusercontent.com/94881918/230758927-883cb77c-244b-432e-b336-928a99b5aef3.png)
 
 
 ## Result:
